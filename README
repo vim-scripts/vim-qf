@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5211
+
+vim-qf  short for vim-quickfix  is a small collection of settings, commands and mappings put together to make working with the quickfix list/window smoother.
+
+FEATURES
+
+* no soft-wrapping,
+* no relative numbers,
+* quickfix buffers hidden from :ls and buffer navigation,
+* Ack.vim-inspired mappings,
+* wrapping mappings for :cnext, :cprevious, :lnext, :lprevious,
+* jump to and from the location/quickfix window with a single mapping
+* filter/restore the list
+* perform commands on each line in the list
+* perform commands on each file in the list
+* open the location/quickfix window automatically after :make, :grep,
+  :lvimgrep and friends if there are valid locations/errors
+* quit Vim if the last window is a location/quickfix window
